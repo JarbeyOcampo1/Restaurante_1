@@ -4,6 +4,7 @@ import RestForm from './components/RestForm';
 import { db } from './components/firebase';
 import {useState, useEffect} from 'react';
 import { collection,addDoc, updateDoc, deleteDoc, getDocs, doc } from 'firebase/firestore';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [rest,setRest] = useState([]);
@@ -49,7 +50,7 @@ return (
     <h1>Restaurante</h1>
     <h2>Lista clientes</h2>
     <RestTable rests={rest} onEdit={handleEditRest} onDelete={handleDeleteRest}/>
-    <h2>{editingRest ? 'editar reserva' : 'crear reserva'}</h2>
+    <h2>{editingRest ? 'Editar reserva' : 'Crear reserva'}</h2>
     <RestForm onSubmit={handleCreateOrUpdateRest} initialRest={editingRest}/>
   </div>
 )

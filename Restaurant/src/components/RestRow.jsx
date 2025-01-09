@@ -18,8 +18,10 @@ const RestRow = ({rest,onEdit,onDelete}) =>{
             <td>{rest.hora}</td>
             <td>{rest.estado}</td>
             <td>
-                <button onClick={handleEdit}> Editar </button>
-                <button onClick={handleDelete}> Eliminar </button>
+                <div className="d-flex justify-content-between">
+                <button className="btn btn-primary" onClick={handleEdit}> Editar </button>
+                <button className="btn btn-danger" onClick={handleDelete}> Eliminar </button>
+                </div>
             </td>
         </tr>
     )
