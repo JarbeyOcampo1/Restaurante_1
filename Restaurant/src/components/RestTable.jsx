@@ -12,6 +12,7 @@ function RestTable ({rests,onEdit,onDelete}) {
                         <th>Fecha</th>
                         <th>Hora</th>
                         <th>Estado</th>
+                        <th>Acciones</th>
                     </tr>
                 </thead>
                 <tbody>
