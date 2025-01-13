@@ -13,20 +13,20 @@
 - **Frontend:**
 
 ## React
-![React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+![React Logo](https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png)
 
 ## JavaScript
-![JavaScript Logo](assets/logos/javascript-logo.png)
+![JavaScript Logo](https://w7.pngwing.com/pngs/640/199/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png)
 
 ## CSS
-![CSS Logo](assets/logos/css-logo.png)
+![CSS Logo](https://e7.pngegg.com/pngimages/603/759/png-clipart-css3-cascading-style-sheets-logo-html-world-wide-web-blue-angle-thumbnail.png)
 
 ## HTML
-![HTML Logo](assets/logos/html-logo.png)
+![HTML Logo](https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5-thumbnail.png)
 - **Backend:**
 
 ## Firebase
-![Firebase Logo](assets/logos/firebase-logo.png)
+![Firebase Logo](https://w7.pngwing.com/pngs/246/288/png-transparent-firebase-hd-logo-thumbnail.png)
 
 
 ----------------------------------------------------------------------------------------------
