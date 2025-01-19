@@ -7,6 +7,7 @@ function RestForm({ onSubmit, initialRest }) {
   const [fecha, setFecha] = useState('');
   const [hora, setHora] = useState('');
   const [estado, setEstado] = useState('');
+  const [mesa,setMesa] = useState('');
 
   useEffect(() => {
     if (initialRest) {
@@ -15,6 +16,7 @@ function RestForm({ onSubmit, initialRest }) {
       setFecha(initialRest.fecha);
       setHora(initialRest.hora);
       setEstado(initialRest.estado);
+      setMesa(initialRest.mesa);
     }
   }, [initialRest]);
 
@@ -27,6 +29,7 @@ function RestForm({ onSubmit, initialRest }) {
     setFecha('');
     setHora('');
     setEstado('');
+    setMesa('');
   };
 
   return (
@@ -55,6 +58,10 @@ function RestForm({ onSubmit, initialRest }) {
           <option value="Pendiente">Pendiente</option>
           <option value="Cancelada">Cancelada</option>
         </select>
+      </div>
+      <div className="mb-3">
+        <label htmlFor="mesa" className="form-label">Mesa</label>
+        <input type="number" className="form-control" placeholder='Ingrese el número de la mesa' value={mesa} onChange={(e) => setMesa(e.target.value)} required/>
       </div>
       <button type="submit" className="btn btn-primary w-100"> {initialRest ? 'Actualizar' : 'Agregar'} </button>
     </form>
