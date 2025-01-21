@@ -22,7 +22,7 @@ function RestForm({ onSubmit, initialRest }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const restData = { nombre, n_personas, fecha, hora, estado };
+    const restData = { nombre, n_personas, fecha, hora, estado, mesa };
     onSubmit(restData); 
     setNombre('');
     setN_Personas('');
@@ -44,7 +44,7 @@ function RestForm({ onSubmit, initialRest }) {
       </div>
       <div className="mb-3">
         <label htmlFor="fecha" className="form-label">Fecha</label>
-        <input type="date" className="form-control" value={fecha} onChange={(e) => setFecha(e.target.value)} require/>
+        <input type="date" className="form-control" value={fecha} onChange={(e) => setFecha(e.target.value)} required/>
       </div>
       <div className="mb-3">
         <label htmlFor="hora" className="form-label">Hora</label>

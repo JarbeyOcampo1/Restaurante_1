@@ -17,6 +17,7 @@ const RestRow = ({rest,onEdit,onDelete}) =>{
             <td>{rest.fecha}</td>
             <td>{rest.hora}</td>
             <td>{rest.estado}</td>
+            <td>{rest.mesa}</td>
             <td>
                 <div className="d-flex justify-content-between">
                 <button className="btn btn-primary" onClick={handleEdit}> Editar </button>
