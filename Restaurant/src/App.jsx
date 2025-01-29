@@ -29,7 +29,7 @@ function App() {
       const restDocRef = doc(db, 'rest', editingRest.id); 
       await updateDoc(restDocRef, restData);
     } else {
-      await addDoc(collection(db, 'rest'), restData); 
+      await addDoc(collection(db, 'rest'), restData);   
     }
     setEditingRest(null);
     fetchRest();
